@@ -1,4 +1,4 @@
-# RET503 Pertemuan 3: Transfer Learning dengan MobileNetV3-Small
+# RET503 Willy : Transfer Learning dengan MobileNetV3-Small
 
 Proyek ini membandingkan tiga cara transfer learning (feature, partial, scratch) pada MobileNetV3-Small untuk membedakan dua kelas objek, botol dan box.
 
