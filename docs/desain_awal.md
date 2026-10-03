@@ -20,3 +20,7 @@ Kelompok: Willy
 3. **Data validasi hanya 20 citra**, akurasi kurang andal. Mitigasi: tambah data validasi dan uji di kondisi lapangan.
 4. **Variasi cahaya dan latar perpustakaan** berbeda dari data saat ini. Mitigasi: ambil data pada berbagai kondisi cahaya dan gunakan ColorJitter.
 5. **Kecepatan di Jetson belum terukur** (angka saat ini dari laptop). Mitigasi: jalankan `scripts/latency.py` di Jetson sebelum memutuskan model final.
+
+## Contoh foto kelas objek
+
+![Contoh foto botol dan box](contoh_foto.png)
