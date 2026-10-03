@@ -2,7 +2,7 @@
 
 Proyek ini membandingkan tiga cara transfer learning (feature, partial, scratch) pada MobileNetV3-Small untuk membedakan dua kelas objek, botol dan box.
 
-Sumber dataset: dikumpulkan oleh Nia TANGGAL = 2. Pembagian train/val dibuat ulang oleh `scripts/split.py` berdasarkan urutan waktu file.
+Sumber dataset: dikumpulkan oleh Nia. Pembagian train/val dibuat ulang oleh `scripts/split.py` berdasarkan urutan waktu file.
 
 Klasifikasi 2 kelas (`botol`, `box`) memakai MobileNetV3-Small pretrained ImageNet, membandingkan tiga mode pelatihan.
 
