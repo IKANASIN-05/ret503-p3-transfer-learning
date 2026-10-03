@@ -1,5 +1,9 @@
 # RET503 Pertemuan 3: Transfer Learning dengan MobileNetV3-Small
 
+Proyek ini membandingkan tiga cara transfer learning (feature, partial, scratch) pada MobileNetV3-Small untuk membedakan dua kelas objek, botol dan box.
+
+Sumber dataset: dikumpulkan oleh Nia TANGGAL = 2. Pembagian train/val dibuat ulang oleh `scripts/split.py` berdasarkan urutan waktu file.
+
 Klasifikasi 2 kelas (`botol`, `box`) memakai MobileNetV3-Small pretrained ImageNet, membandingkan tiga mode pelatihan.
 
 ## Isi repo
@@ -45,7 +49,7 @@ pip install -r requirements.txt
 
 ## Latensi
 
-Perangkat: Laptop Acer Aspire, Intel Core i5, 8 GB RAM, tanpa GPU
+Perangkat: HP Laptop 14s-fq0xxx, AMD Ryzen 3 3250U with Radeon Graphics, 5 GB RAM, tanpa GPU
 
 | Model | Rata-rata (ms) | p95 (ms) | FPS |
 |---|---|---|---|
