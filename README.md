@@ -1,4 +1,4 @@
-# RET503 Pertemuan 3: Transfer Learning dengan MobileNetV3-Small
+# RET503 : Transfer Learning dengan MobileNetV3-Small
 
 Klasifikasi 2 kelas (`botol`, `box`) memakai MobileNetV3-Small pretrained ImageNet, membandingkan tiga mode pelatihan.
 
